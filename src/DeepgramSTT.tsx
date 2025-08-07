@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { createClient, LiveTranscriptionEvents } from "@deepgram/sdk";
 
 const DeepgramSTT = () => {
